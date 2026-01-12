@@ -71,7 +71,7 @@ export default function Page() {
         <div className="mb-8 text-center">
           <div className="mb-6 flex justify-center">
             <a
-              href="https://relationl.com"
+              href="https://relationl.co"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block transition-opacity hover:opacity-80"
