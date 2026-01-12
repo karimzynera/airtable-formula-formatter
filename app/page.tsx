@@ -70,11 +70,18 @@ export default function Page() {
       <div className="mx-auto max-w-7xl">
         <div className="mb-8 text-center">
           <div className="mb-6 flex justify-center">
-            <img
-              src="/relationl-logo.svg"
-              alt="Relationl"
-              className="h-12 md:h-16"
-            />
+            <a
+              href="https://relationl.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block transition-opacity hover:opacity-80"
+            >
+              <img
+                src="/relationl-logo.svg"
+                alt="Relationl"
+                className="h-12 md:h-16"
+              />
+            </a>
           </div>
           <h1 className="mb-2 text-3xl font-bold text-[#1A1A1A] md:text-4xl">
             Airtable Formula Formatter
